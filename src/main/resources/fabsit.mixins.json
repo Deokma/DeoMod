@@ -4,13 +4,6 @@
   "package": "net.deokma.deomod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "accessor.PlayerEntityAccessor",
-    "accessor.EntityAccessor",
-    "accessor.LivingEntityAccessor",
-    "accessor.EntitySpawnPacketAccessor",
-    "injector.ServerPlayNetworkHandlerMixin",
-    "injector.ServerPlayerEntityMixin",
-    "injector.RegistrySyncManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

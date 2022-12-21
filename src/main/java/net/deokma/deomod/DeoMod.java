@@ -2,11 +2,6 @@ package net.deokma.deomod;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.deokma.deomod.config.ConfigManager;
-import net.deokma.deomod.entity.ChairEntity;
-import net.deokma.deomod.entity.PoseManagerEntity;
-import net.deokma.deomod.error.LoadConfigException;
-import net.deokma.deomod.util.Commands;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.entity.*;
@@ -29,10 +24,6 @@ public class DeoMod implements ModInitializer {
 	public static final String MOD_ID = "deomod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	// Pose manager and chair entities
-	public static final EntityType<PoseManagerEntity> RAW_CHAIR_ENTITY_TYPE = PoseManagerEntity.register();
-	public static final EntityType<ChairEntity> CHAIR_ENTITY_TYPE = ChairEntity.register();
-
 	// packet channel for checking if mod loaded
 	public static final Identifier LOADED_CHANNEL = new Identifier(MOD_ID, "check_loaded");
 	// packet channel for pose requests (keybinds etc.)
@@ -41,7 +32,6 @@ public class DeoMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		Commands.register();
 		registerWorkBench();
 
 		/* Blocks */
@@ -66,13 +56,6 @@ public class DeoMod implements ModInitializer {
 
 		/* Sit Functions */
 		sitMain();
-		FabricDefaultAttributeRegistry.register(RAW_CHAIR_ENTITY_TYPE, ArmorStandEntity.createLivingAttributes());
-
-		try {
-			ConfigManager.loadConfig();
-		} catch(LoadConfigException ignored) {
-			LOGGER.warn("DeoMod config not loaded! Using default settings");
-		}
 
 		LOGGER.info("DeoMod loaded");
 	}

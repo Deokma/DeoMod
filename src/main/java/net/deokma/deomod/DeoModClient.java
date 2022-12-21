@@ -13,7 +13,6 @@ import net.fabricmc.fabric.api.client.networking.v1.ClientLoginNetworking;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
-import net.deokma.deomod.keybind.PoseKeybinds;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientLoginNetworkHandler;
 import net.minecraft.client.render.Frustum;
@@ -33,10 +32,6 @@ public class DeoModClient implements ClientModInitializer {
         // handler for if the server pings us with a loaded check
         ClientLoginNetworking.registerGlobalReceiver(DeoMod.LOADED_CHANNEL, DeoModClient::checkPacketReply);
 
-        // renderer is required for all registered entities, but we don't want to render them
-        // so pass in an empty renderer
-        EntityRendererRegistry.register(DeoMod.CHAIR_ENTITY_TYPE, EmptyRenderer::new);
-        EntityRendererRegistry.register(DeoMod.RAW_CHAIR_ENTITY_TYPE, EmptyRenderer::new);
 
         //ScreenRegistry.register(screenRegistry.WORKBENCH_SCREENHANDLER, workBenchScreen::new);
 
@@ -44,8 +39,6 @@ public class DeoModClient implements ClientModInitializer {
 
         ClientLoginNetworking.registerGlobalReceiver(Sit.VERSION_CHECK, this::onServerRequest);
 
-        // keybinds for posing
-        PoseKeybinds.register();
     }
 
     private static CompletableFuture<PacketByteBuf> checkPacketReply(MinecraftClient client, ClientLoginNetworkHandler handler, PacketByteBuf buf, Consumer<GenericFutureListener<? extends Future<? super Void>>> listener) {
