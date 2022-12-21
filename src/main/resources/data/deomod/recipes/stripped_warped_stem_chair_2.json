@@ -1,0 +1,8 @@
+{
+  "type": "decor4fabric:workbench",
+  "ingredient": {
+    "item": "minecraft:stripped_warped_stem"
+  },
+  "result": "decor4fabric:stripped_warped_stem_chair_2",
+  "count": 1
+}

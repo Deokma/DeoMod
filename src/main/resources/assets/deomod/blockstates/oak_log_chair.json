@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "decor4fabric:block/oak_log_chair"},
+    "facing=east":  { "model": "decor4fabric:block/oak_log_chair", "y":  90 },
+    "facing=south": { "model": "decor4fabric:block/oak_log_chair", "y":  180 },
+    "facing=west":  { "model": "decor4fabric:block/oak_log_chair", "y": 270 }
+  }
+}

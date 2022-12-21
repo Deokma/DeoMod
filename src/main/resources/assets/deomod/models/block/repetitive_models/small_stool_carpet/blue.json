@@ -1,0 +1,7 @@
+{
+  "parent": "deomod:block/models/small_stool_carpet_model",
+  "textures": {
+    "wool": "minecraft:block/blue_wool",
+    "particle": "minecraft:block/blue_wool"
+  }
+}

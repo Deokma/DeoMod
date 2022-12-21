@@ -1,0 +1,7 @@
+{
+  "parent": "deomod:block/models/log_table_top_model",
+  "textures": {
+    "log": "minecraft:block/oak_log",
+    "particle": "minecraft:block/oak_log"
+  }
+}

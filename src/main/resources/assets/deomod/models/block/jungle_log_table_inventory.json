@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/log_table_inventory_model",
+  "textures": {
+    "stripped": "minecraft:block/stripped_jungle_log",
+    "top": "minecraft:block/jungle_log_top",
+    "log": "minecraft:block/jungle_log",
+    "particle": "minecraft:block/jungle_log"
+  }
+}

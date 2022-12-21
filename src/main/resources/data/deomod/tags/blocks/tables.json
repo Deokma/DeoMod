@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "decor4fabric:oak_log_table",
+    "decor4fabric:birch_log_table",
+    "decor4fabric:spruce_log_table",
+    "decor4fabric:dark_oak_log_table",
+    "decor4fabric:acacia_log_table",
+    "decor4fabric:jungle_log_table",
+    "decor4fabric:crimson_stem_table",
+    "decor4fabric:warped_stem_table",
+
+    "decor4fabric:stripped_oak_log_table",
+    "decor4fabric:stripped_birch_log_table",
+    "decor4fabric:stripped_spruce_log_table",
+    "decor4fabric:stripped_dark_oak_log_table",
+    "decor4fabric:stripped_acacia_log_table",
+    "decor4fabric:stripped_jungle_log_table",
+    "decor4fabric:stripped_crimson_stem_table",
+    "decor4fabric:stripped_warped_stem_table"
+  ]
+}

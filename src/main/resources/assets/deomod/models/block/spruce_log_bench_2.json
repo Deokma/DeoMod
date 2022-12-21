@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/log_bench_model_2",
+  "textures": {
+    "top": "minecraft:block/spruce_log_top",
+    "sides": "minecraft:block/spruce_log",
+    "stripped_sides": "minecraft:block/stripped_spruce_log",
+    "particle": "minecraft:block/spruce_log"
+  }
+}

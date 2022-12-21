@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "deomod",
+  "version": "1.5.4+1.19",
+
+  "name": "DeoMod",
+  "description": "MyMod",
+  "authors": [
+    "Deokma"
+  ],
+  "contact": {
+    "sources": "https://github.com/fill1890/fabsit"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.deokma.deomod.DeoMod"
+    ],
+    "client": [
+      "net.deokma.deomod.DeoModClient"
+    ],
+    "server": [
+      "net.deokma.deomod.DeoModServer"
+    ]
+  },
+  "mixins": [
+    "fabsit.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

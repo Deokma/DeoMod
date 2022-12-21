@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/small_stool_model",
+  "textures": {
+    "log": "minecraft:block/stripped_acacia_log",
+    "stripped_log": "minecraft:block/acacia_log",
+    "top": "minecraft:block/acacia_log_top",
+    "particle": "minecraft:block/acacia_planks"
+  }
+}

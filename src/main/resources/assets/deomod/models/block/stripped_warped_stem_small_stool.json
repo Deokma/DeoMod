@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/small_stool_model",
+  "textures": {
+    "log": "minecraft:block/stripped_warped_stem",
+    "stripped_log": "minecraft:block/warped_stem",
+    "top": "minecraft:block/warped_stem_top",
+    "particle": "minecraft:block/birch_planks"
+  }
+}

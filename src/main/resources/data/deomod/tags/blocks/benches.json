@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "deomod:acacia_log_bench",
+    "deomod:acacia_log_bench_2",
+
+    "deomod:birch_log_bench",
+    "deomod:birch_log_bench_2",
+
+    "deomod:crimson_stem_bench",
+    "deomod:crimson_stem_bench_2",
+
+    "deomod:dark_oak_log_bench",
+    "deomod:dark_oak_log_bench_2",
+
+    "deomod:jungle_log_bench",
+    "deomod:jungle_log_bench_2",
+
+    "deomod:oak_log_bench",
+    "deomod:oak_log_bench_2",
+
+    "deomod:spruce_log_bench",
+    "deomod:spruce_log_bench_2",
+
+    "deomod:warped_stem_bench",
+    "deomod:warped_stem_bench_2"
+  ]
+}

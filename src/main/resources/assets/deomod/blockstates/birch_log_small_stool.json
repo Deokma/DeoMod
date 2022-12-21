@@ -1,0 +1,308 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "deomod:block/birch_log_small_stool"},
+      "when": { "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/birch_log_small_stool", "y": 90},
+      "when": { "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/birch_log_small_stool", "y": 180},
+      "when": { "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/birch_log_small_stool", "y": 270},
+      "when": { "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/white"},
+      "when": { "wool_color": 1, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/white", "y": 90},
+      "when": { "wool_color": 1, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/white", "y": 180},
+      "when": { "wool_color": 1, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/white", "y": 270},
+      "when": { "wool_color": 1, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/orange"},
+      "when": { "wool_color": 2, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/orange", "y": 90},
+      "when": { "wool_color": 2, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/orange", "y": 180},
+      "when": { "wool_color": 2, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/orange",  "y": 270,  "uvlock": true },
+      "when": { "wool_color": 2, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/magenta"},
+      "when": { "wool_color": 3, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/magenta", "y": 90},
+      "when": { "wool_color": 3, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/magenta", "y": 180},
+      "when": { "wool_color": 3, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/magenta",  "y": 270},
+      "when": { "wool_color": 3, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_blue"},
+      "when": { "wool_color": 4, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_blue", "y": 90},
+      "when": { "wool_color": 4, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_blue", "y": 180},
+      "when": { "wool_color": 4, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_blue",  "y": 270},
+      "when": { "wool_color": 4, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/yellow"},
+      "when": { "wool_color": 5, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/yellow", "y": 90},
+      "when": { "wool_color": 5, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/yellow", "y": 180},
+      "when": { "wool_color": 5, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/yellow",  "y": 270},
+      "when": { "wool_color": 5, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/lime"},
+      "when": { "wool_color": 6, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/lime", "y": 90},
+      "when": { "wool_color": 6, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/lime", "y": 180},
+      "when": { "wool_color": 6, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/lime",  "y": 270},
+      "when": { "wool_color": 6, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/pink"},
+      "when": { "wool_color": 7, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/pink", "y": 90},
+      "when": { "wool_color": 7, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/pink", "y": 180},
+      "when": { "wool_color": 7, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/pink",  "y": 270},
+      "when": { "wool_color": 7, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/gray"},
+      "when": { "wool_color": 8, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/gray", "y": 90},
+      "when": { "wool_color": 8, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/gray", "y": 180},
+      "when": { "wool_color": 8, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/gray",  "y": 270},
+      "when": { "wool_color": 8, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_gray"},
+      "when": { "wool_color": 9, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_gray", "y": 90},
+      "when": { "wool_color": 9, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_gray", "y": 180},
+      "when": { "wool_color": 9, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/light_gray",  "y": 270},
+      "when": { "wool_color": 9, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/cyan"},
+      "when": { "wool_color": 10, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/cyan", "y": 90},
+      "when": { "wool_color": 10, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/cyan", "y": 180},
+      "when": { "wool_color": 10, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/cyan",  "y": 270},
+      "when": { "wool_color": 10, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/purple"},
+      "when": { "wool_color": 11, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/purple", "y": 90},
+      "when": { "wool_color": 11, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/purple", "y": 180},
+      "when": { "wool_color": 11, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/purple",  "y": 270},
+      "when": { "wool_color": 11, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/blue"},
+      "when": { "wool_color": 12, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/blue", "y": 90},
+      "when": { "wool_color": 12, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/blue", "y": 180},
+      "when": { "wool_color": 12, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/blue",  "y": 270},
+      "when": { "wool_color": 12, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/brown"},
+      "when": { "wool_color": 13, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/brown", "y": 90},
+      "when": { "wool_color": 13, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/brown", "y": 180},
+      "when": { "wool_color": 13, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/brown",  "y": 270},
+      "when": { "wool_color": 13, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/green"},
+      "when": { "wool_color": 14, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/green", "y": 90},
+      "when": { "wool_color": 14, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/green", "y": 180},
+      "when": { "wool_color": 14, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/green",  "y": 270},
+      "when": { "wool_color": 14, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/red"},
+      "when": { "wool_color": 15, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/red", "y": 90},
+      "when": { "wool_color": 15, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/red", "y": 180},
+      "when": { "wool_color": 15, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/red",  "y": 270},
+      "when": { "wool_color": 15, "facing": "west" }
+    },
+
+
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/black"},
+      "when": { "wool_color": 16, "facing": "north" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/black", "y": 90},
+      "when": { "wool_color": 16, "facing": "east" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/black", "y": 180},
+      "when": { "wool_color": 16, "facing": "south" }
+    },
+    {
+      "apply": { "model": "deomod:block/repetitive_models/small_stool_carpet/black",  "y": 270},
+      "when": { "wool_color": 16, "facing": "west" }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/small_stool_model",
+  "textures": {
+    "log": "minecraft:block/stripped_jungle_log",
+    "stripped_log": "minecraft:block/jungle_log",
+    "top": "minecraft:block/jungle_log_top",
+    "particle": "minecraft:block/jungle_planks"
+  }
+}

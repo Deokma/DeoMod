@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "values": [
+    "deomod:acacia_log_chair",
+    "deomod:acacia_log_chair_2",
+    "deomod:stripped_acacia_log_chair",
+    "deomod:stripped_acacia_log_chair_2",
+
+    "deomod:birch_log_chair",
+    "deomod:birch_log_chair_2",
+    "deomod:stripped_birch_log_chair",
+    "deomod:stripped_birch_log_chair_2",
+
+    "deomod:crimson_stem_chair",
+    "deomod:crimson_stem_chair_2",
+    "deomod:stripped_crimson_stem_chair",
+    "deomod:stripped_crimson_stem_chair_2",
+
+    "deomod:dark_oak_log_chair",
+    "deomod:dark_oak_log_chair_2",
+    "deomod:stripped_dark_oak_log_chair",
+    "deomod:stripped_dark_oak_log_chair_2",
+
+    "deomod:jungle_log_chair",
+    "deomod:jungle_log_chair_2",
+    "deomod:stripped_jungle_log_chair",
+    "deomod:stripped_jungle_log_chair_2",
+
+    "deomod:oak_log_chair",
+    "deomod:oak_log_chair_2",
+    "deomod:stripped_oak_log_chair",
+    "deomod:stripped_oak_log_chair_2",
+
+    "deomod:spruce_log_chair",
+    "deomod:spruce_log_chair_2",
+    "deomod:stripped_spruce_log_chair",
+    "deomod:stripped_spruce_log_chair_2",
+
+    "deomod:warped_stem_chair",
+    "deomod:warped_stem_chair_2",
+    "deomod:stripped_warped_stem_chair",
+    "deomod:stripped_warped_stem_chair_2"
+  ]
+}

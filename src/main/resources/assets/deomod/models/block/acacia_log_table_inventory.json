@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/log_table_inventory_model",
+  "textures": {
+    "stripped": "minecraft:block/stripped_acacia_log",
+    "top": "minecraft:block/acacia_log_top",
+    "log": "minecraft:block/acacia_log",
+    "particle": "minecraft:block/acacia_log"
+  }
+}

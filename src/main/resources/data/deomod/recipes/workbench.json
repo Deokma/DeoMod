@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P",
+        "SS",
+        "OO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_dye"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "S": {
+            "item": "minecraft:stripped_oak_log"
+        },
+        "O": {
+            "item": "minecraft:oak_log"
+        }
+    },
+    "result": {
+        "item": "decor4fabric:workbench",
+        "count": 1
+    }
+}

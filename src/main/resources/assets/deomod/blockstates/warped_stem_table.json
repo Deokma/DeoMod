@@ -1,0 +1,213 @@
+{
+	"multipart": [
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_top"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"south": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 90,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"south": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 180,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"south": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 270,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"south": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 270,
+				"uvlock": true
+			},
+			"when": {
+				"east": "false",
+				"south": "false",
+				"west": "false",
+				"north": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 180,
+				"uvlock": true
+			},
+			"when": {
+				"east": "false",
+				"south": "false",
+				"west": "false",
+				"north": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"south": "false",
+				"west": "false",
+				"east": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 270,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"south": "false",
+				"west": "false",
+				"east": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"west": "false",
+				"south": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 90,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"west": "false",
+				"south": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 90,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"south": "false",
+				"west": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 180,
+				"uvlock": true
+			},
+			"when": {
+				"north": "false",
+				"east": "false",
+				"south": "false",
+				"west": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 180,
+				"uvlock": true
+			},
+			"when": {
+				"north": "true",
+				"west": "true",
+				"south": "false",
+				"east": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 270,
+				"uvlock": true
+			},
+			"when": {
+				"north": "true",
+				"east": "true",
+				"south": "false",
+				"west": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"y": 90,
+				"uvlock": true
+			},
+			"when": {
+				"south": "true",
+				"west": "true",
+				"north": "false",
+				"east": "false"
+			}
+		},
+		{
+			"apply": {
+				"model": "decor4fabric:block/warped_stem_table_leg",
+				"uvlock": true
+			},
+			"when": {
+				"south": "true",
+				"east": "true",
+				"north": "false",
+				"west": "false"
+			}
+		}
+	]
+}

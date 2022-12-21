@@ -1,0 +1,8 @@
+{
+  "type": "decor4fabric:workbench",
+  "ingredient": {
+    "item": "minecraft:stripped_acacia_log"
+  },
+  "result": "decor4fabric:stripped_acacia_log_chair",
+  "count": 1
+}

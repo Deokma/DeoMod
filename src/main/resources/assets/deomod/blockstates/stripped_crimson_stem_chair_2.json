@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "decor4fabric:block/stripped_crimson_stem_chair_2"},
+    "facing=east":  { "model": "decor4fabric:block/stripped_crimson_stem_chair_2", "y":  90 },
+    "facing=south": { "model": "decor4fabric:block/stripped_crimson_stem_chair_2", "y":  180 },
+    "facing=west":  { "model": "decor4fabric:block/stripped_crimson_stem_chair_2", "y": 270 }
+  }
+}

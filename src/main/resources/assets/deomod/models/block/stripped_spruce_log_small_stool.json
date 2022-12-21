@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/small_stool_model",
+  "textures": {
+    "log": "minecraft:block/stripped_spruce_log",
+    "stripped_log": "minecraft:block/spruce_log",
+    "top": "minecraft:block/spruce_log_top",
+    "particle": "minecraft:block/spruce_planks"
+  }
+}

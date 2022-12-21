@@ -1,0 +1,8 @@
+{
+  "type": "decor4fabric:workbench",
+  "ingredient": {
+    "item": "minecraft:stripped_dark_oak_log"
+  },
+  "result": "decor4fabric:stripped_dark_oak_log_chair",
+  "count": 1
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "deomod:block/models/log_table_top_model",
+  "textures": {
+    "log": "minecraft:block/crimson_stem",
+    "particle": "minecraft:block/crimson_stem"
+  }
+}

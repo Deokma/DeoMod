@@ -1,0 +1,9 @@
+{
+  "parent": "deomod:block/models/log_table_inventory_model",
+  "textures": {
+    "stripped": "minecraft:block/stripped_birch_log",
+    "top": "minecraft:block/birch_log_top",
+    "log": "minecraft:block/birch_log",
+    "particle": "minecraft:block/birch_log"
+  }
+}
