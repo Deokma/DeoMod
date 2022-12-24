@@ -1,11 +1,12 @@
 package net.deokma.deomod;
 
+//import net.deokma.deomod.blocks.ModBlocks;
+import net.deokma.deomod.item.ModItems;
+import net.deokma.deomod.util.ModLootTableModifiers;
+import net.deokma.deomod.world.village.VillageAdditions;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
-import net.minecraft.entity.*;
-import net.minecraft.entity.decoration.ArmorStandEntity;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +14,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Optional;
 
 import static net.deokma.deomod.registry.blockRegistry.*;
-import static net.deokma.deomod.registry.fuelRegistry.registerFuel;
-import static net.deokma.deomod.registry.recipeRegistry.registerRecipes;
-import static net.deokma.deomod.registry.screenRegistry.registerScreens;
+//import static net.deokma.deomod.registry.itemRegistry.*;
+import static net.deokma.deomod.registry.ItemRegistry.registerItems;
 import static net.deokma.deomod.sitOnStuff.Sit.sitMain;
 
 public class DeoMod implements ModInitializer {
@@ -32,31 +32,20 @@ public class DeoMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		registerWorkBench();
 
 		/* Blocks */
-		registerBenches();
 		registerChairs();
-		registerStools();
-		registerTables();
-
-		registerBlockEntities();
-
-		/* Items */
 		//registerItems();
-
-		/* Fuel */
-		registerFuel();
-
-		/* Recipes */
-		registerRecipes();
-
-		/* Screens */
-		registerScreens();
 
 		/* Sit Functions */
 		sitMain();
 
+		ModItems.registerModItems();
+		ModLootTableModifiers.modifyLootTables();
+		//ModBlocks.registerModBlocks();
+		//ModOreGeneration.generateOres();
+
+		VillageAdditions.registerNewVillageStructures();
 		LOGGER.info("DeoMod loaded");
 	}
 	public static float getModVersion()

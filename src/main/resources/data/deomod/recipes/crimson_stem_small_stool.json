@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:crimson_stem"
-  },
-  "result": "decor4fabric:crimson_stem_small_stool",
-  "count": 2
-}

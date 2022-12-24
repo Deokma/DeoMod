@@ -1,9 +1,0 @@
-{
-  "parent": "deomod:block/models/log_bench_model_2",
-  "textures": {
-    "top": "minecraft:block/warped_stem_top",
-    "sides": "minecraft:block/warped_stem",
-    "stripped_sides": "minecraft:block/stripped_warped_stem",
-    "particle": "minecraft:block/warped_stem"
-  }
-}

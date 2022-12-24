@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:acacia_log"
-  },
-  "result": "deomod:acacia_log_bench",
-  "count": 3
-}

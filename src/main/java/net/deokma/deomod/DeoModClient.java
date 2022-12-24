@@ -3,7 +3,6 @@ package net.deokma.deomod;
 import io.netty.buffer.Unpooled;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
-import net.deokma.deomod.registry.screenRegistry;
 import net.deokma.deomod.sitOnStuff.Sit;
 import net.deokma.deomod.sitOnStuff.SitEntity;
 import net.fabricmc.api.ClientModInitializer;

@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "deomod:block/acacia_log_chair_2"},
-    "facing=east":  { "model": "deomod:block/acacia_log_chair_2", "y":  90 },
-    "facing=south": { "model": "deomod:block/acacia_log_chair_2", "y":  180 },
-    "facing=west":  { "model": "deomod:block/acacia_log_chair_2", "y": 270 }
-  }
-}

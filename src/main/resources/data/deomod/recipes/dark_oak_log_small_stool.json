@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:dark_oak_log"
-  },
-  "result": "decor4fabric:dark_oak_log_small_stool",
-  "count": 2
-}

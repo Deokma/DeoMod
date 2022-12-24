@@ -1,8 +1,0 @@
-{
-  "parent": "deomod:block/models/log_chair_2_model",
-  "textures": {
-    "log": "minecraft:block/stripped_dark_oak_log",
-    "stripped_log": "minecraft:block/dark_oak_log",
-    "particle": "minecraft:block/dark_oak_log"
-  }
-}

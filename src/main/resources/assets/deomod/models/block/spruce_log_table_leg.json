@@ -1,8 +1,0 @@
-{
-  "parent": "deomod:block/models/log_table_leg_model",
-  "textures": {
-    "stripped": "minecraft:block/stripped_spruce_log",
-    "top": "minecraft:block/spruce_log_top",
-    "particle": "minecraft:block/spruce_log"
-  }
-}

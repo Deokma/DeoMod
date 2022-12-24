@@ -1,8 +1,0 @@
-{
-  "parent": "deomod:block/models/log_chair_2_model",
-  "textures": {
-    "log": "minecraft:block/acacia_log",
-    "stripped_log": "minecraft:block/stripped_acacia_log",
-    "particle": "minecraft:block/acacia_log"
-  }
-}

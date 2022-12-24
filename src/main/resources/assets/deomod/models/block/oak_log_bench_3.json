@@ -1,9 +1,0 @@
-{
-  "parent": "deomod:block/models/log_bench_model_3",
-  "textures": {
-    "top": "minecraft:block/oak_log_top",
-    "sides": "minecraft:block/oak_log",
-    "stripped_sides": "minecraft:block/stripped_oak_log",
-    "particle": "minecraft:block/oak_log"
-    }
-}

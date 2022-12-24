@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:jungle_log"
-  },
-  "result": "decor4fabric:jungle_log_bench_2",
-  "count": 2
-}

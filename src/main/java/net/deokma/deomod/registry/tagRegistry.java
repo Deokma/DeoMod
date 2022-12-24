@@ -10,6 +10,7 @@ public class tagRegistry {
         public static final TagKey<Block> BENCHES = createTag("benches");
         public static final TagKey<Block> HIGH_BENCHES = createTag("high_benches");
         public static final TagKey<Block> CHAIRS = createTag("chairs");
+        public static final TagKey<Block> BENCH_CHAIRS = createTag("bench_chair");
         public static final TagKey<Block> SMALL_STOOLS = createTag("small_stools");
         public static final TagKey<Block> TABLES = createTag("tables");
 

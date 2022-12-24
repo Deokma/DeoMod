@@ -1,0 +1,7 @@
+{
+  "parent": "deomod:block/models/beach_chair",
+  "textures": {
+    "0": "deomod:furniture/beach_chair",
+    "particle": "deomod:furniture/beach_chair"
+  }
+}

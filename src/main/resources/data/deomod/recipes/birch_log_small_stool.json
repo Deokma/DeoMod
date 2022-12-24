@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:birch_log"
-  },
-  "result": "decor4fabric:birch_log_small_stool",
-  "count": 2
-}

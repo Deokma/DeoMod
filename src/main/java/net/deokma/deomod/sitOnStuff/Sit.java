@@ -18,7 +18,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.registry.Registry;
 
-import static net.deokma.deomod.blocks.logBench.AXE_TYPE;
 import static net.deokma.deomod.sitOnStuff.SitEntity.OCCUPIED;
 
 public class Sit
@@ -67,11 +66,10 @@ public class Sit
 					player.startRiding(sit);
 					return ActionResult.SUCCESS;
 				}
-				// IS HIGH BENCH (logBench3)?
-				else if (state.isIn(tagRegistry.Blocks.HIGH_BENCHES) && sneakingAndEmpty)
+				if(state.isIn(tagRegistry.Blocks.BENCH_CHAIRS) && sneakingAndEmpty)
 				{
 					SitEntity sit = SIT_ENTITY_TYPE.create(world);
-					Vec3d pos = new Vec3d(hitResult.getBlockPos().getX() + 0.5D, hitResult.getBlockPos().getY() + 0.3, hitResult.getBlockPos().getZ() + 0.5D);
+					Vec3d pos = new Vec3d(hitResult.getBlockPos().getX() + 0.5D, hitResult.getBlockPos().getY() + 0.2, hitResult.getBlockPos().getZ() + 0.5D);
 
 					OCCUPIED.put(comparePos, player.getBlockPos());
 					sit.updatePosition(pos.getX(), pos.getY(), pos.getZ());
@@ -79,11 +77,11 @@ public class Sit
 					player.startRiding(sit);
 					return ActionResult.SUCCESS;
 				}
-				// IS BENCH
-				else if (state.isIn(tagRegistry.Blocks.BENCHES) && sneakingAndEmpty && world.getBlockState(hitResult.getBlockPos()).get(AXE_TYPE).equals(0))
+				// IS HIGH BENCH (logBench3)?
+				else if (state.isIn(tagRegistry.Blocks.HIGH_BENCHES) && sneakingAndEmpty)
 				{
 					SitEntity sit = SIT_ENTITY_TYPE.create(world);
-					Vec3d pos = new Vec3d(hitResult.getBlockPos().getX() + 0.5D, hitResult.getBlockPos().getY() + 0.17D, hitResult.getBlockPos().getZ() + 0.5D);
+					Vec3d pos = new Vec3d(hitResult.getBlockPos().getX() + 0.5D, hitResult.getBlockPos().getY() + 0.3, hitResult.getBlockPos().getZ() + 0.5D);
 
 					OCCUPIED.put(comparePos, player.getBlockPos());
 					sit.updatePosition(pos.getX(), pos.getY(), pos.getZ());

@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:warped_stem"
-  },
-  "result": "decor4fabric:warped_stem_bench",
-  "count": 3
-}

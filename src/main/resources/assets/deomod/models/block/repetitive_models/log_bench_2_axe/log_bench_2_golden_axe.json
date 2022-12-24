@@ -1,7 +1,0 @@
-{
-  "parent": "deomod:block/models/log_bench_model_2_axe_model",
-  "textures": {
-    "axe_rot": "deomod:item/golden_axe_rot",
-    "axe_rot_mir": "deomod:item/golden_axe_rot_mir"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "deomod:block/models/log_table_inventory_model",
-  "textures": {
-    "stripped": "minecraft:block/crimson_stem",
-    "top": "minecraft:block/crimson_stem_top",
-    "log": "minecraft:block/stripped_crimson_stem",
-    "particle": "minecraft:block/stripped_crimson_stem"
-  }
-}

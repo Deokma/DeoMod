@@ -1,9 +1,0 @@
-{
-  "parent": "deomod:block/models/small_stool_model",
-  "textures": {
-    "log": "minecraft:block/stripped_crimson_stem",
-    "stripped_log": "minecraft:block/crimson_stem",
-    "top": "minecraft:block/crimson_stem_top",
-    "particle": "minecraft:block/crimson_stem"
-  }
-}

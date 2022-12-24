@@ -1,8 +1,0 @@
-{
-  "type": "decor4fabric:workbench",
-  "ingredient": {
-    "item": "minecraft:oak_log"
-  },
-  "result": "decor4fabric:oak_log_bench_3",
-  "count": 2
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "deomod:block/models/log_bench_model",
-  "textures": {
-    "sides": "minecraft:block/acacia_log",
-    "top": "minecraft:block/acacia_log_top",
-    "particle": "minecraft:block/acacia_log"
-  }
-}

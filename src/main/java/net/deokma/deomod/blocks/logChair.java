@@ -31,39 +31,38 @@ import static net.deokma.deomod.sitOnStuff.SitEntity.OCCUPIED;
 public class logChair extends HorizontalFacingBlock implements Waterloggable {
 
     /* CHAIR LEGS */
-    private static final VoxelShape FIRST_LEG = Block.createCuboidShape(3.0D, 0.0D,  3.0D, 5.0D, 7.0D, 5.0D);
-    private static final VoxelShape SECOND_LEG = Block.createCuboidShape(11.0D, 0.0D,  3.0D, 13.0D, 7.0D, 5.0D);
-    private static final VoxelShape THIRD_LEG = Block.createCuboidShape(3.0D, 0.0D,  11.0D, 5.0D, 7.0D, 13.0D);
-    private static final VoxelShape FOURTH_LEG = Block.createCuboidShape(11.0D, 0.0D,  11.0D, 13.0D, 7.0D, 13.0D);
+    private static final VoxelShape FIRST_LEG = Block.createCuboidShape(3.0D, 0.0D, 3.0D, 5.0D, 7.0D, 5.0D);
+    private static final VoxelShape SECOND_LEG = Block.createCuboidShape(11.0D, 0.0D, 3.0D, 13.0D, 7.0D, 5.0D);
+    private static final VoxelShape THIRD_LEG = Block.createCuboidShape(3.0D, 0.0D, 11.0D, 5.0D, 7.0D, 13.0D);
+    private static final VoxelShape FOURTH_LEG = Block.createCuboidShape(11.0D, 0.0D, 11.0D, 13.0D, 7.0D, 13.0D);
 
     /* CHAIR SIT */
-    private static final VoxelShape CHAIR_SIT = Block.createCuboidShape(2.0D, 7.0D,  2.0D, 14.0D, 9.0D, 14.0D);
+    private static final VoxelShape CHAIR_SIT = Block.createCuboidShape(2.0D, 7.0D, 2.0D, 14.0D, 9.0D, 14.0D);
 
     /* DIRECTIONS */
-    private static final VoxelShape CHAIR_NORTH = Block.createCuboidShape(2.0D, 9.0D,  12.0D, 14.0D, 20.0D, 14.0D);
-    private static final VoxelShape CHAIR_NORTH_SUPPORT_1 = Block.createCuboidShape(3.0D, 9.0D,  3.0D, 4.0D, 12.0D, 5.0D);
-    private static final VoxelShape CHAIR_NORTH_SUPPORT_2 = Block.createCuboidShape(12.0D, 9.0D,  3.0D, 13.0D, 12.0D, 5.0D);
-    private static final VoxelShape CHAIR_NORTH_SUPPORT_TOP_1 = Block.createCuboidShape(2.0D, 12.0D,  3.0D, 4.0D, 13.0D, 12.0D);
-    private static final VoxelShape CHAIR_NORTH_SUPPORT_TOP_2 = Block.createCuboidShape(12.0D, 12.0D,  3.0D, 14.0D, 13.0D, 12.0D);
+    private static final VoxelShape CHAIR_NORTH = Block.createCuboidShape(2.0D, 9.0D, 12.0D, 14.0D, 20.0D, 14.0D);
+    private static final VoxelShape CHAIR_NORTH_SUPPORT_1 = Block.createCuboidShape(3.0D, 9.0D, 3.0D, 4.0D, 12.0D, 5.0D);
+    private static final VoxelShape CHAIR_NORTH_SUPPORT_2 = Block.createCuboidShape(12.0D, 9.0D, 3.0D, 13.0D, 12.0D, 5.0D);
+    private static final VoxelShape CHAIR_NORTH_SUPPORT_TOP_1 = Block.createCuboidShape(2.0D, 12.0D, 3.0D, 4.0D, 13.0D, 12.0D);
+    private static final VoxelShape CHAIR_NORTH_SUPPORT_TOP_2 = Block.createCuboidShape(12.0D, 12.0D, 3.0D, 14.0D, 13.0D, 12.0D);
 
-    private static final VoxelShape CHAIR_SOUTH = Block.createCuboidShape(2.0D, 9.0D,  2.0D, 14.0D, 20.0D, 4.0D);
-    private static final VoxelShape CHAIR_SOUTH_SUPPORT_1 = Block.createCuboidShape(3.0D, 9.0D,  11.0D, 4.0D, 12.0D, 13.0D);
-    private static final VoxelShape CHAIR_SOUTH_SUPPORT_2 = Block.createCuboidShape(12.0D, 9.0D,  11.0D, 13.0D, 12.0D, 13.0D);
-    private static final VoxelShape CHAIR_SOUTH_SUPPORT_TOP_1 = Block.createCuboidShape(2.0D, 12.0D,  4.0D, 4.0D, 13.0D, 13.0D);
-    private static final VoxelShape CHAIR_SOUTH_SUPPORT_TOP_2 = Block.createCuboidShape(12.0D, 12.0D,  4.0D, 14.0D, 13.0D, 13.0D);
+    private static final VoxelShape CHAIR_SOUTH = Block.createCuboidShape(2.0D, 9.0D, 2.0D, 14.0D, 20.0D, 4.0D);
+    private static final VoxelShape CHAIR_SOUTH_SUPPORT_1 = Block.createCuboidShape(3.0D, 9.0D, 11.0D, 4.0D, 12.0D, 13.0D);
+    private static final VoxelShape CHAIR_SOUTH_SUPPORT_2 = Block.createCuboidShape(12.0D, 9.0D, 11.0D, 13.0D, 12.0D, 13.0D);
+    private static final VoxelShape CHAIR_SOUTH_SUPPORT_TOP_1 = Block.createCuboidShape(2.0D, 12.0D, 4.0D, 4.0D, 13.0D, 13.0D);
+    private static final VoxelShape CHAIR_SOUTH_SUPPORT_TOP_2 = Block.createCuboidShape(12.0D, 12.0D, 4.0D, 14.0D, 13.0D, 13.0D);
 
-    private static final VoxelShape CHAIR_EAST = Block.createCuboidShape(2.0D, 9.0D,  2.0D, 4.0D, 20.0D, 14.0D);
-    private static final VoxelShape CHAIR_EAST_SUPPORT_1 = Block.createCuboidShape(11.0D, 9.0D,  3.0D, 13.0D, 12.0D, 4.0D);
-    private static final VoxelShape CHAIR_EAST_SUPPORT_2 = Block.createCuboidShape(11.0D, 9.0D,  12.0D, 13.0D, 12.0D, 13.0D);
-    private static final VoxelShape CHAIR_EAST_SUPPORT_TOP_1 = Block.createCuboidShape(4.0D, 12.0D,  2.0D, 13.0D, 13.0D, 4.0D);
-    private static final VoxelShape CHAIR_EAST_SUPPORT_TOP_2 = Block.createCuboidShape(4.0D, 12.0D,  12.0D, 13.0D, 13.0D, 14.0D);
+    private static final VoxelShape CHAIR_EAST = Block.createCuboidShape(2.0D, 9.0D, 2.0D, 4.0D, 20.0D, 14.0D);
+    private static final VoxelShape CHAIR_EAST_SUPPORT_1 = Block.createCuboidShape(11.0D, 9.0D, 3.0D, 13.0D, 12.0D, 4.0D);
+    private static final VoxelShape CHAIR_EAST_SUPPORT_2 = Block.createCuboidShape(11.0D, 9.0D, 12.0D, 13.0D, 12.0D, 13.0D);
+    private static final VoxelShape CHAIR_EAST_SUPPORT_TOP_1 = Block.createCuboidShape(4.0D, 12.0D, 2.0D, 13.0D, 13.0D, 4.0D);
+    private static final VoxelShape CHAIR_EAST_SUPPORT_TOP_2 = Block.createCuboidShape(4.0D, 12.0D, 12.0D, 13.0D, 13.0D, 14.0D);
 
-    private static final VoxelShape CHAIR_WEST = Block.createCuboidShape(12.0D, 9.0D,  2.0D, 14.0D, 20.0D, 14.0D);
-    private static final VoxelShape CHAIR_WEST_SUPPORT_1 = Block.createCuboidShape(3.0D, 9.0D,  3.0D, 5.0D, 12.0D, 4.0D);
-    private static final VoxelShape CHAIR_WEST_SUPPORT_2 = Block.createCuboidShape(3.0D, 9.0D,  12.0D, 5.0D, 12.0D, 13.0D);
-    private static final VoxelShape CHAIR_WEST_SUPPORT_TOP_1 = Block.createCuboidShape(3.0D, 12.0D,  2.0D, 12.0D, 13.0D, 4.0D);
-    private static final VoxelShape CHAIR_WEST_SUPPORT_TOP_2 = Block.createCuboidShape(3.0D, 12.0D,  12.0D, 12.0D, 13.0D, 14.0D);
-
+    private static final VoxelShape CHAIR_WEST = Block.createCuboidShape(12.0D, 9.0D, 2.0D, 14.0D, 20.0D, 14.0D);
+    private static final VoxelShape CHAIR_WEST_SUPPORT_1 = Block.createCuboidShape(3.0D, 9.0D, 3.0D, 5.0D, 12.0D, 4.0D);
+    private static final VoxelShape CHAIR_WEST_SUPPORT_2 = Block.createCuboidShape(3.0D, 9.0D, 12.0D, 5.0D, 12.0D, 13.0D);
+    private static final VoxelShape CHAIR_WEST_SUPPORT_TOP_1 = Block.createCuboidShape(3.0D, 12.0D, 2.0D, 12.0D, 13.0D, 4.0D);
+    private static final VoxelShape CHAIR_WEST_SUPPORT_TOP_2 = Block.createCuboidShape(3.0D, 12.0D, 12.0D, 12.0D, 13.0D, 14.0D);
 
     /* VOXEL GROUPS */
     private static final VoxelShape CHAIR_VOXELSHAPE = VoxelShapes.union(FIRST_LEG, SECOND_LEG, THIRD_LEG, FOURTH_LEG, CHAIR_SIT);
@@ -84,6 +83,7 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
 
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
     private final boolean hasArmRests;
+    private final String chairType;
 
     public logChair(boolean hasArmRestsBool) {
         super(FabricBlockSettings.of(Material.WOOD)
@@ -93,6 +93,17 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
         setDefaultState(this.stateManager.getDefaultState()
                 .with(WATERLOGGED, false));
         this.hasArmRests = hasArmRestsBool;
+        chairType = null;
+    }
+    public logChair(boolean hasArmRestsBool, String chairType) {
+        super(FabricBlockSettings.of(Material.WOOD)
+                .resistance(3f)
+                .hardness(2f)
+                .sounds(BlockSoundGroup.WOOD));
+        setDefaultState(this.stateManager.getDefaultState()
+                .with(WATERLOGGED, false));
+        this.hasArmRests = hasArmRestsBool;
+        this.chairType = chairType;
     }
 
     @SuppressWarnings("deprecation")
@@ -100,8 +111,7 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
         Direction dir = state.get(FACING);
 
-        if (hasArmRests)
-        {
+        if (hasArmRests) {
             return switch (dir) {
                 case NORTH -> FACING_NORTH_ARMS;
                 case SOUTH -> FACING_SOUTH_ARMS;
@@ -109,9 +119,7 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
                 case WEST -> FACING_WEST_ARMS;
                 default -> VoxelShapes.fullCube();
             };
-        }
-        else
-        {
+        } else {
             return switch (dir) {
                 case NORTH -> FACING_NORTH;
                 case SOUTH -> FACING_SOUTH;
@@ -121,6 +129,7 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
             };
         }
     }
+
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager) {
@@ -139,11 +148,12 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
         }
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
+
     @Override
     public boolean tryFillWithFluid(WorldAccess world, BlockPos pos, BlockState state, FluidState fluidState) {
         if (!state.get(Properties.WATERLOGGED) && fluidState.getFluid() == Fluids.WATER) {
 
-            world.setBlockState(pos, (BlockState)((BlockState)state.with(WATERLOGGED, true)), Block.NOTIFY_ALL);
+            world.setBlockState(pos, (BlockState) ((BlockState) state.with(WATERLOGGED, true)), Block.NOTIFY_ALL);
             world.createAndScheduleFluidTick(pos, fluidState.getFluid(), fluidState.getFluid().getTickRate(world));
             return true;
         }
@@ -165,7 +175,7 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
         double y = pos.getY();
         double z = pos.getZ();
 
-        List<SitEntity> entities = world.getEntitiesByClass(SitEntity.class, new Box(x, y, z, x+1, y+1, z+1), new Predicate<SitEntity>() {
+        List<SitEntity> entities = world.getEntitiesByClass(SitEntity.class, new Box(x, y, z, x + 1, y + 1, z + 1), new Predicate<SitEntity>() {
             @Override
             public boolean test(SitEntity entity) {
                 return entity.hasPassengers();
@@ -177,7 +187,7 @@ public class logChair extends HorizontalFacingBlock implements Waterloggable {
 
         // BREAK SOUND AND PARTICLES
         this.spawnBreakParticles(world, player, pos, state);
-        world.emitGameEvent((Entity)player, GameEvent.BLOCK_DESTROY, pos);
+        world.emitGameEvent((Entity) player, GameEvent.BLOCK_DESTROY, pos);
 
         OCCUPIED.remove(new Vec3d(x, y, z));
     }

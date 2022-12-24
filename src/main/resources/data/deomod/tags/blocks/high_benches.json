@@ -1,20 +1,20 @@
 {
   "replace": false,
   "values": [
-    "decor4fabric:acacia_log_bench_3",
+    "deomod:acacia_log_bench_3",
 
-    "decor4fabric:birch_log_bench_3",
+    "deomod:birch_log_bench_3",
 
-    "decor4fabric:crimson_stem_bench_3",
+    "deomod:crimson_stem_bench_3",
 
-    "decor4fabric:dark_oak_log_bench_3",
+    "deomod:dark_oak_log_bench_3",
 
-    "decor4fabric:jungle_log_bench_3",
+    "deomod:jungle_log_bench_3",
 
-    "decor4fabric:oak_log_bench_3",
+    "deomod:oak_log_bench_3",
 
-    "decor4fabric:spruce_log_bench_3",
+    "deomod:spruce_log_bench_3",
 
-    "decor4fabric:warped_stem_bench_3"
+    "deomod:warped_stem_bench_3"
   ]
 }

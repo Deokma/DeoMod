@@ -1,9 +1,0 @@
-{
-  "parent": "deomod:block/models/log_table_inventory_model",
-  "textures": {
-    "stripped": "minecraft:block/stripped_warped_stem",
-    "top": "minecraft:block/warped_stem_top",
-    "log": "minecraft:block/warped_stem",
-    "particle": "minecraft:block/warped_stem"
-  }
-}
