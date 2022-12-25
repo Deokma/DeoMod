@@ -1,0 +1,6 @@
+{
+  "parent": "deomod:block/models/wooden_coffe_table",
+  "textures": {
+    "1": "deomod:furniture/wooden_table"
+  }
+}

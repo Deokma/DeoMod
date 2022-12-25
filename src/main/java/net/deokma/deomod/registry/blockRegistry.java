@@ -24,6 +24,7 @@ public class blockRegistry {
     public static final String MOD_ID = "deomod";
 
     public static final Block BEACH_CHAIR = new logBeachChair();
+    public static final Block WOODEN_COFFEE_TABLE = new logCoffeeTable();
     public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4f).sounds(BlockSoundGroup.STONE).requiresTool());
     public static final Block RUBY_ORE = new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).sounds(BlockSoundGroup.STONE).requiresTool(), UniformIntProvider.create(3,7));
 
@@ -33,6 +34,9 @@ public class blockRegistry {
 
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "beach_chair"), BEACH_CHAIR);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "beach_chair"), new BlockItem(BEACH_CHAIR, new Item.Settings().group(ItemGroup.DECORATIONS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "wooden_coffee_table"), WOODEN_COFFEE_TABLE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "wooden_coffee_table"), new BlockItem(WOODEN_COFFEE_TABLE, new Item.Settings().group(ItemGroup.DECORATIONS)));
+
 
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "ruby_block"), RUBY_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "ruby_block"), new BlockItem(RUBY_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));

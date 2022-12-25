@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "deomod:block/wooden_coffee_table"},
+    "facing=east":  { "model": "deomod:block/wooden_coffee_table", "y":  90 },
+    "facing=south": { "model": "deomod:block/wooden_coffee_table", "y":  180 },
+    "facing=west":  { "model": "deomod:block/wooden_coffee_table", "y": 270 }
+  }
+}

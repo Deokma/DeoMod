@@ -1,6 +1,5 @@
 package net.deokma.deomod.world.feature;//package net.deokma.deo.world.feature;
 
-
 import net.deokma.deomod.DeoMod;
 //import net.deokma.deomod.blocks.ModBlocks;
 import net.minecraft.block.Blocks;

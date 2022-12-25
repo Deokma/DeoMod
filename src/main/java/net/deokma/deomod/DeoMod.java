@@ -1,6 +1,5 @@
 package net.deokma.deomod;
 
-//import net.deokma.deomod.blocks.ModBlocks;
 import net.deokma.deomod.item.ModItems;
 import net.deokma.deomod.util.ModLootTableModifiers;
 import net.deokma.deomod.world.village.VillageAdditions;
@@ -14,8 +13,6 @@ import org.slf4j.LoggerFactory;
 import java.util.Optional;
 
 import static net.deokma.deomod.registry.blockRegistry.*;
-//import static net.deokma.deomod.registry.itemRegistry.*;
-import static net.deokma.deomod.registry.ItemRegistry.registerItems;
 import static net.deokma.deomod.sitOnStuff.Sit.sitMain;
 
 public class DeoMod implements ModInitializer {
